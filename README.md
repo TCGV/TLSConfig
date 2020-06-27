@@ -21,13 +21,15 @@ This tool was implemented for use in Windows platforms as instructed in:
 
 Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows 10
 
-## Download
+## Usage
 
 You can clone this repository, review its code and build the console app yourself. I'm also providing an executable file for [download](https://github.com/TCGV/TLSConfig/raw/master/Release/Tcgv.TLSConfig.exe).
 
-The console app interface is pretty straight forward, just follow through its commands to evaluate and disable TLS protocol versions:
+The console app interface is pretty straightforward, just follow through its commands to evaluate and disable TLS protocol versions:
 
 ![image](https://github.com/TCGV/TLSConfig/blob/master/Release/tlsconfig.png)
+
+⚠️ <b>ATTENTION</b> ⚠️ Before disabling protocols TLS 1.0 and TLS 1.1 in a remote Virtual Machine make sure this won't lock you out of it, for instance by ensuring TLS 1.2 is supported and enabled for connecting through Remote Desktop Protocol (RDP).
 
 ## Licensing
 
